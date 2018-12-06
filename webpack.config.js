@@ -165,10 +165,10 @@ class WebpackConfig {
             noInfo: true,
             quiet: true,
             clientLogLevel: 'none',
-            overlay: {
+            overlay: globalConfig.needOverLay ?  {
                 warnings: true,
                 errors: true
-            },
+            }:false,
             proxy
         };
     }

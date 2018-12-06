@@ -2,3 +2,4 @@ __mocks__
 __tests__
 config
 public
+template
